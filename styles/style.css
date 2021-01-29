@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -33,11 +35,13 @@
 }
 
 .square {
+    display: flex;
     min-width: 78px;
     min-height: 78px;
     background-color: #9D0208;
     border-radius: 4px;
     margin: 10px;
+    justify-content: center;
 }
 
 .box--one {
@@ -65,4 +69,26 @@
 .box--six {
     justify-content: center;
     align-items: center;
+}
+
+.square--four-three {
+    align-self: flex-end;
+}
+
+.square--five-two {
+    min-height: 64px;
+    align-self: center;
+    margin-bottom: 20px;
+}
+
+.square--six-two {
+    flex: .673;
+}
+
+.square__text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+    color: #FFFFFF;
 }
