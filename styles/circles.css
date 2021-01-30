@@ -6,9 +6,11 @@
 
 .page--circles {
     background-color: #FAA307;
+    justify-content: center;
+    align-items: center;
 }
 
-.container--squares {
+.container--circles {
     flex-flow: column wrap;
     max-height: 480px;
 }
@@ -57,13 +59,13 @@
 }
 
 @media screen and (max-width: 900px) {
-    .container--squares {
+    .container--circles {
         max-height: 750px;
     }
 }
 
 @media screen and (max-width: 600px) {
-    .container--squares {
+    .container--circles {
         max-height: none;
     }
 }
