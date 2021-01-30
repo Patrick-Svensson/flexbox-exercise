@@ -3,3 +3,41 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.page--circles {
+    background-color: #FAA307;
+}
+
+.container--squares {
+    flex-flow: column wrap;
+    max-height: 480px;
+}
+
+.box__circles {
+    width: 273px;
+    height: 220px;
+    background-color: #03071E;
+}
+
+.box__circles--alt-colour {
+    background-color: #6A040F;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    background: #748CAB;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 900px) {
+    .container--squares {
+        max-height: 750px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container--squares {
+        max-height: none;
+    }
+}
