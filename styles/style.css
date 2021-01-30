@@ -23,8 +23,6 @@
 }
 
 .container--squares {
-    width: 100%;
-    height: 100%;
     flex-wrap:  wrap;
 }
 
@@ -40,8 +38,8 @@
 
 .square {
     display: flex;
-    width: 78px;
-    height: 78px;
+    min-width: 78px;
+    min-height: 78px;
     background-color: #9D0208;
     border-radius: 4px;
     margin: 10px;
