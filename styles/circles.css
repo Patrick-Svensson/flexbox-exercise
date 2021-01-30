@@ -17,6 +17,7 @@
     width: 273px;
     height: 220px;
     background-color: #03071E;
+    flex-wrap: wrap;
 }
 
 .box__circles--alt-colour {
@@ -28,6 +29,31 @@
     height: 50px;
     background: #748CAB;
     border-radius: 50%;
+    margin: 10px;
+}
+
+.box__circles--one {
+    align-content: flex-start;
+}
+
+.box__circles--two {
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.box__circles--three {
+    flex-flow: row-reverse wrap-reverse;
+    align-content: flex-start
+}
+
+.box__circles--four {
+    justify-content: center;
+    align-content: center;
+}
+
+.box__circles--five {
+    justify-content: space-between;
+    align-content: space-between;
 }
 
 @media screen and (max-width: 900px) {
